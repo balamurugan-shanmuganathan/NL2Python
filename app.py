@@ -7,12 +7,28 @@ def load_data(file):
     return pd.read_csv(file)
 
 def main():
-    st.set_page_config(page_title="DataQueryAI", page_icon=":bar_chart:", layout="wide")
+    st.set_page_config(page_title="NL2Python", page_icon=":bar_chart:", layout="wide")
     st.markdown("""
-        <h1 style="text-align: center; color: #4CAF50;">DataQueryAI</h1>
-        <p style="text-align: center; font-size: 20px; color: #777;">AI-powered assistant for instant data insights from CSV files.</p>
+        <h1 style="text-align: center; color: #4CAF50;">NL2Python</h1>
+        <p style="text-align: center; font-size: 20px; color: #777;">Natural Language to Python converter.</p>
     """, unsafe_allow_html=True)
 
+    github_repo_url="https://github.com/balamurugan-shanmuganathan/NL2Python"
+
+    st.markdown(f"""
+        <style>
+            .github-icon {{
+                position: absolute;
+                top: 10px;
+                right: 20px;
+            }}
+        </style>
+
+        <a href="{github_repo_url}" class="github-icon" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"  alt="GitHub Logo" width="30"/>
+            View on GitHub
+        </a><br><br>
+     """, unsafe_allow_html=True)
     # Sidebar components
     with st.sidebar:
         uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])

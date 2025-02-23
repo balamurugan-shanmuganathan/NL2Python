@@ -1,8 +1,6 @@
-langchain_google_genai
 langchain_experimental
-langchain
+langchain_google_genai
 streamlit
-python
 matplotlib
 seaborn
-plotly
+pandas
