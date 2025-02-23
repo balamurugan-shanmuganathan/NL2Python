@@ -1,20 +1,33 @@
-# DataQueryAI
+# **NL2Python: AI-Powered Python Query Generator**  
 
-**DataQueryAI** is an AI-powered assistant designed to provide instant data insights from CSV files. It allows users to interact with data through natural language queries, transforming those queries into Python code, executing them, and displaying the results as data visualizations, dataframes, or text.
+## 🔍 Overview  
+**NL2Python** is an intelligent application that converts **natural language queries into executable Python code**, enabling seamless data analysis. It is built using:  
 
-## Features
+- **🔹 LangChain Community** for AI-driven code generation  
+- **🔹 Gemini AI** for natural language understanding  
+- **🔹 Streamlit** for an interactive user interface  
 
-- **Instant Data Insights**: Query your CSV files instantly and get meaningful insights.
-- **Natural Language Queries**: Convert natural language queries into executable Python code.
-- **Interactive Output**: Display results as tables, charts, or plain text.
-- **Flexible**: Works with any CSV file and supports various types of output, including Pandas DataFrames, Series, and visualizations.
-- **User-Friendly**: Chat with your data, just like you would with a knowledgeable assistant.
+## 🚀 Features  
+✅ Converts **plain English queries** into **Python code**  
+✅ Loads and processes **CSV datasets**  
+✅ Executes **Python code dynamically** and returns results  
+✅ Supports **data analysis, filtering, aggregation, and visualization**  
+✅ Provides an easy-to-use **Streamlit-based UI**  
 
-## Installation
+## 🌍 Live Demo  
+🚀 Try out **NL2Python** on **Hugging Face Spaces**:  
+[![Hugging Face Space](https://img.shields.io/badge/HuggingFace-Demo-orange?logo=huggingface)](https://huggingface.co/spaces/Balams/NL2Python)  
 
-To use **DataQueryAI**, you'll need to have Python and the required libraries installed. Here's how you can set it up:
+## 🔗 How It Works  
+1. **Upload a CSV file** to the application  
+2. **Enter a natural language query** (e.g., "Show the top 5 products by sales")  
+3. **AI converts it into Python code**  
+4. **The code runs on the dataset, and results are displayed**  
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/balamurugan-shanmuganathan/DataQueryAI.git
-cd DataQueryAI
+## 🛠️ Tech Stack  
+- **AI Model**: Gemini AI  
+- **Code Generation Framework**: LangChain Community  
+- **Frontend**: Streamlit  
+- **Data Processing**: Pandas  
+
+💡 **Analyze your data faster with NL2Python!**  
